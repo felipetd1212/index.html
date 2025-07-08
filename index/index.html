@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Felipe Bacil Fagundes</title>
+  <style>
+      body {
+          background-color: #f0f8ff; /* Cor de fundo suave */
+          font-family: Arial, sans-serif;
+      }
+      h1 {
+          color: #4a90e2; /* Cor do título */
+          text-align: center; /* Centraliza o título */
+      }
+      p {
+          font-size: 18px; /* Tamanho de fonte maior */
+          text-align: justify; /* Justifica o texto */
+          margin: 20px; /* Margem ao redor do parágrafo */
+      }
+      ul {
+          margin: 20px; /* Margem para a lista */
+          padding: 0; /* Remove padding padrão */
+      }
+      ul li {
+          margin-bottom: 10px; /* Espaçamento entre itens da lista */
+      }
+      img {
+          border-radius: 15px; /* Bordas arredondadas */
+          width: 300px; /* Tamanho adequado da imagem */
+          display: block; /* Para centralizar a imagem */
+          margin: 0 auto; /* Centraliza a imagem */
+      }
+      table {
+          width: 80%; /* Largura da tabela */
+          margin: 20px auto; /* Centraliza a tabela */
+          border-collapse: collapse; /* Remove espaços entre as células */
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+      }
+      th, td {
+          border: 1px solid #ccc; /* Borda das células */
+          padding: 10px; /* Espaçamento interno das células */
+          text-align: center; /* Centraliza o texto nas células */
+      }
+      a {
+          display: block; /* Para que o link ocupe toda a largura */
+          text-align: center; /* Centraliza o link */
+          margin: 20px; /* Margem ao redor do link */
+          color: #4a90e2; /* Cor do link */
+          text-decoration: none; /* Remove sublinhado */
+      }
+      a:hover {
+          color: #d9534f; /* Cor do link ao passar o mouse */
+      }
+      button {
+          display: block; /* Para centralizar o botão */
+          margin: 20px auto; /* Margem ao redor do botão */
+          padding: 10px 20px; /* Espaçamento interno do botão */
+          font-size: 16px; /* Tamanho da fonte do botão */
+          background-color: #4a90e2; /* Cor de fundo do botão */
+          color: white; /* Cor do texto do botão */
+          border: none; /* Remove borda do botão */
+          border-radius: 5px; /* Bordas arredondadas do botão */
+          cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+      }
+      button:hover {
+          background-color: #d9534f; /* Cor do botão ao passar o mouse */
+      }
+      #message {
+          text-align: center; /* Centraliza a mensagem */
+          font-size: 18px; /* Tamanho da fonte da mensagem */
+          color: #333; /* Cor da mensagem */
+          margin-top: 20px; /* Margem acima da mensagem */
+      }
+  </style>
+</head>
+<body>
+  <h1>Felipe Bacil Fagundes</h1>
+  <p>Olá! Meu nome é Felipe Bacil, tenho 20 anos, sou de Curitiba-PR. Meus interesses incluem desde se tornar fluente em outras línguas a gestor de Tecnologia em uma grande empresa.</p>
+  
+  <ul>
+      <li>Gosto de jogar com meus amigos</li>
+      <li>Gosto de ficar com minha família</li>
+      <li>Gosto de visitar lugares</li>
+  </ul>
+  
+  <img src="imagens/videogame.jpg.jpg" alt="imagem ilustrativa">
+  
+  <table>
+      <tr>
+          <th>País</th>
+          <th>Imagem</th>
+      </tr>
+      <tr>
+          <td>Síria</td>
+          <td><img src="imagens/Síria.avif" alt="Síria" width="100"></td>
+      </tr>
+      <tr>
+          <td>Estados Unidos</td>
+          <td><img src="imagens/new york.jpg" alt="Estados Unidos" width="100"></td>
+      </tr>
+      <tr>
+          <td>Suiça</td>
+          <td><img src="imagens/suica.jpeg" alt="Suiça" width="100"></td>
+      </tr>
+  </table>
+  
+  <a href="https://www.nytimes.com/" target="_blank">Visite meu site de interesse onde eu aprendo outra língua e adiquiro conhecimento.</a>
+  
+  <button onclick="showMessage()">Clique para ver uma mensagem!</button>
+  
+  <div id="message"></div>
+  
+  <script>
+      function showMessage() {
+          document.getElementById('message').innerText = 'Bem-vindo à minha página! Lembre-se: "A persistência é o caminho do êxito."';
+      }
+  </script>
+</body>
+</html>
